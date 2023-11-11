@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+  .nav__items {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .container {
+   background-image: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    background-image: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+@media only screen and (max-width: 425px){
+  .blog__card_1 {
+    align-items: center;
+    width: 300px;
+    font-size: 20px;
+  }
+  .blog {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
